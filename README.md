@@ -11,19 +11,27 @@ Faculdade-ADS/
 ├── Semestre-1/
 │   ├── SPOADME - Administração de Empresas/
 │   │   ├── Atividades/
+│   │   │   ├── Atividade 1.md
 │   │   ├── Seminários/
+│   │   │   ├── Seminário 1.md
 │   │   └── README.md
 │   ├── SPOENG1 - Engenharia de Software I/
 │   │   ├── Atividades/
+│   │   │   ├── Atividade 1.md
 │   │   ├── Seminários/
+│   │   │   ├── Seminário 1.md
 │   │   └── README.md
 │   ├── SPOMATI - Matemática para Informática/
 │   │   ├── Atividades/
+│   │   │   ├── Atividade 1.md
 │   │   ├── Seminários/
+│   │   │   ├── Seminário 1.md
 │   │   └── README.md
 │   ├── SPOOACO - Organização e Arquitetura de Computadores/
 │   │   ├── Atividades/
+│   │   │   ├── Atividade 1.md
 │   │   ├── Seminários/
+│   │   │   ├── Seminário 1.md
 │   │   └── README.md
 │   ├── SPOPFDS - Práticas e Ferramentas do Desenvolvimento de Software/
 │   │   ├── Atividades/
@@ -36,12 +44,16 @@ Faculdade-ADS/
 │   │   └── README.md
 │   ├── SPOLOG1 - Lógica de Programação/
 │   │   ├── Atividades/
+│   │   │   ├── Atividade 1.md
 │   │   ├── Seminários/
+│   │   │   ├── Seminário 1.md
 │   │   └── README.md
 │   └── SPORHTI - Recursos Humanos e Tecnologias/
-│   |    ├── Atividades/
-│   |    ├── Seminários/
-│   |    └── README.md
+│   │   ├── Atividades/
+│   │   │   ├── Atividade 1.md
+│   │   ├── Seminários/
+│   │   │   ├── Seminário 1.md
+│   │   └── README.md
 │   └── Diversos/
 │       └── README.md
 └── README.md
