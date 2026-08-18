@@ -39,9 +39,9 @@ Faculdade-ADS/
 │   │   ├── Seminários/
 │   │   └── README.md
 │   └── SPORHTI - Recursos Humanos e Tecnologias/
-│       ├── Atividades/
-│       ├── Seminários/
-│       └── README.md
-│   ├── Diversos/
+│   |    ├── Atividades/
+│   |    ├── Seminários/
+│   |    └── README.md
+│   └── Diversos/
 │       └── README.md
 └── README.md
