@@ -37,20 +37,7 @@ var
 
 
 inicio
-  escreva("Valor da hora-aula: ")
-  leia(VH)
-  escreva("Horas trabalhadas: ")
-  leia(HT)
-  escreva("Desconto INSS: ")
-  leia(PD)
 
-  SB <- VH * HT
-  TD <- SB * PD / 100
-
-  limpatela
-  escreval("Salário bruto = ", SB)
-  escreval("Desconto Total = ", TD)
-  escreval("Salário líquido = ", SB - TD)
 fimalgoritmo
 ```
 
