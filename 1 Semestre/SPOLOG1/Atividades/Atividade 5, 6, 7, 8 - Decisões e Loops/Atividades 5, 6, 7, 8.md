@@ -5,7 +5,9 @@
 
 ---
 
-## Dados de Alunos
+## 1. Dados de Alunos
+
+* **Enunciado:** Desenvolver um algoritmo (diagrama de blocos e portugol) – usando a estrutura ESCOLHA/CASO,  leia o número do registro de um aluno e escreva o respectivo nome do aluno e sua idade em dias, a partir do quadro abaixo:
 
 ![alt text](image.png)
 
@@ -136,7 +138,9 @@ fimalgoritmo
 
 ---
 
-## Calculadora de Média Aritmética e Contagem de Números
+## 2. Calculadora de Média Aritmética e Contagem de Números
+
+* **Enunciado:** Desenvolver um algoritmo (PORTUGOL) – usando o laço PARA,  que leia a quantidade 1de N valores,  calcule e escreva: A. Média aritmética dos valores lidos; B. Quantidade e o percentual de valores positivos; C. Quantidade e o percentual de valores negativos.
 
 ```portugol
 algoritmo "Calculadora de Média Aritmética e Contagem de Números"
@@ -155,7 +159,11 @@ fimalgoritmo
 
 ---
 
-## Soma a Partir de N
+## 3. Soma a Partir de N
+
+* **Enunciado:** Escreva um algoritmo (portugol) usando a estrutura enquanto/faça, para ler um valor A e um valor N. Imprimir a soma dos N números a partir de A (inclusive). Caso N seja negativo ou ZERO, deverá ser lido um novo N (apenas N). Veja na tabela a seguir algumas entradas para teste:
+
+![alt text](image-1.png)
 
 ```portugol
 algoritmo "Soma a Partir de N"
@@ -174,7 +182,9 @@ fimalgoritmo
 
 ---
 
-## Análise de Números Inteiros
+## 4.  Análise de Números Inteiros
+
+* **Enunciado:** Construa um algoritmo (diagrama de blocos), usando FAÇA/ENQUANTO,  que leia uma quantidade indeterminada de números inteiros positivos e no final mostre: A. O maior número digitado; B. O menor número digitado; C. A quantidade de vezes que o primeiro número é digitado. O final da série de números digitada deve ser indicado pela entrada de -1.
 
 ```portugol
 algoritmo "Análise de Números Inteiros"
