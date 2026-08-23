@@ -7,6 +7,8 @@
 
 ## Dados de Alunos
 
+![alt text](image.png)
+
 ### Versão Simplificada
 
 ```portugol
