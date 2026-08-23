@@ -86,10 +86,10 @@ inicio
   leia(ce)
 
   limpatela
-  escreval("Valor em Reais = R$ ", vr)
-  escreval("Conversão - Dólares = $ ", vr / cd)
-  escreval("Conversão - Libras = £ ", vr / cl)
-  escreval("Conversão - Euros = € ", vr / ce)
+  escreval("Valor em Reais = R$ ", vr:10:2)
+  escreval("Conversão - Dólares = $ ", vr / cd:10:2)
+  escreval("Conversão - Libras = £ ", vr / cl:10:2)
+  escreval("Conversão - Euros = € ", vr / ce:10:2)
 fimalgoritmo
 ```
 
@@ -131,16 +131,16 @@ inicio
 
         se cod = 1 entao
           escreval("Total de votos em branco: ", vbr)
-          escreval("Percentual: ", vbr * 100 / vto, "%")
+          escreval("Percentual: ", vbr * 100 / vto:4:2, "%")
         senao se cod = 2 entao
           escreval("Total de votos nulos: ", vnu)
-          escreval("Percentual: ", vnu * 100 / vto, "%")
+          escreval("Percentual: ", vnu * 100 / vto:4:2, "%")
         senao se cod = 3 entao
           escreval("Total de indecisos: ", vin)
-          escreval("Percentual: ", vin * 100 / vto, "%")
+          escreval("Percentual: ", vin * 100 / vto:4:2, "%")
         senao se cod = 4 entao
           escreval("Total de votos válidos: ", vva)
-          escreval("Percentual: ", vva * 100 / vto, "%")
+          escreval("Percentual: ", vva * 100 / vto:4:2, "%")
         senao
           escreval("Opção inválida! Tente novamente.")
         fimse

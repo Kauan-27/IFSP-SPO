@@ -17,8 +17,8 @@ inicio
   leia(ce)
 
   limpatela
-  escreval("Valor em Reais = R$ ", vr)
-  escreval("Conversão - Dólares = $ ", vr / cd)
-  escreval("Conversão - Libras = £ ", vr / cl)
-  escreval("Conversão - Euros = € ", vr / ce)
+  escreval("Valor em Reais = R$ ", vr:10:2)
+  escreval("Conversão - Dólares = $ ", vr / cd:10:2)
+  escreval("Conversão - Libras = £ ", vr / cl:10:2)
+  escreval("Conversão - Euros = € ", vr / ce:10:2)
 fimalgoritmo
