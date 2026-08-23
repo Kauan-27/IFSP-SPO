@@ -17,7 +17,7 @@
 * **Enunciado:** Desenvolver um algoritmo (diagrama de blocos e portugol) – usando a estrutura ESCOLHA/CASO,  leia o número do registro de um aluno e escreva o respectivo nome do aluno e sua idade em dias, a partir do quadro abaixo:
 
 <div align="center">
-  <img src="./Tabela ex1.png" alt="Tabela 1" width="500">
+  <img src="./Imagens/Tabela ex1.png" alt="Tabela 1" width="500">
 </div>
 
 ### **Versão em Portugol**
@@ -84,8 +84,8 @@ fimalgoritmo
 ### **RESULTADO**
 
 <div style="display: flex; gap: 10px;">
-  <img src="Resultado1.png" alt="Resultado 1">
-  <img src="Resultado1.1.png" alt="Resultado 1.1">
+  <img src="./Imagens/Resultado1.1.png" alt="Resultado 1">
+  <img src="./Imagens/Resultado1.2.png" alt="Resultado 1.1">
 </div>
 
 ---
@@ -95,7 +95,7 @@ fimalgoritmo
 ### **Versão em Fluxograma**
 
 <div align="center">
-  <img src="./Fluxograma 1.png" alt="Fluxo 1" width="500">
+  <img src="./Imagens/Fluxograma 1.png" alt="Fluxo 1" width="500">
 </div>
 
 ---
@@ -134,7 +134,7 @@ fimalgoritmo
 * **Enunciado:** Escreva um algoritmo (portugol) usando a estrutura enquanto/faça, para ler um valor A e um valor N. Imprimir a soma dos N números a partir de A (inclusive). Caso N seja negativo ou ZERO, deverá ser lido um novo N (apenas N). Veja na tabela a seguir algumas entradas para teste:
 
 <div align="center">
-  <img src="./Tabela ex3.png" alt="Tabela 2" width="500">
+  <img src="./Imagens/Tabela ex3.png" alt="Tabela 2" width="500">
 </div>
 
 ```portugol
