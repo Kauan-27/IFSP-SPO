@@ -12,5 +12,4 @@
 **Data:** 15 de Agosto de 2026  
 **Plataforma:** [GitHub](https://github.com)
 
-**Link do repositório:**  
-[PFDS](https://github.com/Kauan-27/Estudos/tree/main/IFSP-SPO/1%20Semestre%20SPOPFDS)
+**Link do repositório:**  [PFDS](https://github.com/Kauan-27/Estudos/tree/main/IFSP-SPO/1%20Semestre%20SPOPFDS)
