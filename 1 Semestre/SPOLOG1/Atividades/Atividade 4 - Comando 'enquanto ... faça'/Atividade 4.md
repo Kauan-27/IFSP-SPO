@@ -3,6 +3,8 @@
 **Aluno:** Kauan Andrade Silva  
 **Professor:** Francisco Luciano  
 
+## 4. Compras à Vista e à Prazo
+
 ```portugol
 algoritmo "Cálculo compra à prazo e à vista"
 //Disciplina: SPOLOG1

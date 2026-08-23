@@ -95,7 +95,7 @@ fimalgoritmo
 ### **Versão em Fluxograma**
 
 <div align="center">
-  <img src="./fluxograma 1.png" alt="Fluxo 1" width="500">
+  <img src="./Fluxograma 1.png" alt="Fluxo 1" width="500">
 </div>
 
 ---
