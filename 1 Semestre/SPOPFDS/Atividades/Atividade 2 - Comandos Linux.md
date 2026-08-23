@@ -1,6 +1,7 @@
 # Atividade 2: Principais comandos Linux
 
 ## Enunciado
+
 * **Tarefa:** Assistir ao vídeo "Principais comandos Linux" e criar um objeto de aprendizagem para compartilhar o conhecimento.
 * **Entrega:** Salvar o link ou o objeto no repositório da disciplina dentro da pasta `Atividades -> Atividades 2`.
 
@@ -9,6 +10,7 @@
 ---
 
 ## Resposta
+
 **Título:** Principais Comandos Linux  
 **Autor:** Kauan Andrade  
 **Data:** 15 de Agosto de 2026  
