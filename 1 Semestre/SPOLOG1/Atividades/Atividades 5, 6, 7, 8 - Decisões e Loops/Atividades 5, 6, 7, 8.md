@@ -5,24 +5,16 @@
 
 ---
 
-## 1. Cálculo do Salário Líquido
-
-### Dados de Alunos
+## Dados de Alunos
 
 ---
 
-## 2. Cálculo do Salário Líquido
-
-### Calculadora de média aritmética e contagem de números
+## Calculadora de média aritmética e contagem de números
 
 ---
 
-## 3. Cálculo do Salário Líquido
-
-### Soma a partir de N
+## Soma a partir de N
 
 ---
 
-## 4. Cálculo do Salário Líquido
-
-### Análise de números Inteiros
+## Análise de números Inteiros
