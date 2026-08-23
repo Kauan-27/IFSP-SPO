@@ -7,18 +7,128 @@
 
 ## Dados de Alunos
 
+### Versão Simplificada
+
 ```portugol
-algoritmo "Dados de Alunos"
+algoritmo "Dados de Alunos - Simplificado"
 // Disciplina: Lógica de Programação 1
 // Descrição: Desenvolver um algoritmo (diagrama de blocos e portugol) – usando a estrutura ESCOLHA/CASO,  leia o número do registro de um aluno e escreva o respectivo nome do aluno e sua idade em dias.
 // Autor: Kauan Andrade
 // Data: 23/08/2026
 
 var
-
+   reg, idadeAnos, idadeDias: inteiro
+   nome: caractere
+   valido: logico
 
 inicio
+   Escreval("|--------------------------------|")
+   Escreval("|        ALUNOS REGISTRADOS      |")
+   Escreval("|--------------------------------|")
+   Escreval("|  1 - Luiz S.  |  2 - Carlos S. |")
+   Escreval("|--------------------------------|")
+   Escreval("|  3 - Ana O.   |  4 - Thiago F. |")
+   Escreval("|--------------------------------|")
+   Escreval()
+   Escreval("Digite o registro do aluno para mais dados:")
+   Leia(reg)
+   limpatela
 
+   valido <- verdadeiro
+
+   escolha (reg)
+      caso 1 
+         nome <- "   Luiz Silva   "
+         idadeAnos <- 15
+      caso 2
+         nome <- "  Carlos Santos "
+         idadeAnos <- 19
+      caso 3
+         nome <- "  Ana Oliveira  "
+         idadeAnos <- 25
+      caso 4
+         nome <- "Thiago Ferreira "
+         idadeAnos <- 28
+      outrocaso
+         valido <- falso
+         Escreval("O número informado não corresponde a nenhum registro!")
+   fimescolha
+
+   se (valido) entao
+      idadeDias <- (idadeAnos * 365) + (idadeAnos div 4)
+      
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("|                         DADOS DO ALUNO                           |")
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("| Nº Registro |   Nome e Sobrenome   | Idade (dias) | Idade (anos) |")
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("|      ", reg, "      |   ", nome, "   |     ", idadeDias:5:0, "    |      ", idadeAnos, "      |")
+      Escreval("|------------------------------------------------------------------|")
+   fimse
+fimalgoritmo
+```
+
+### Versão Inicial
+
+```portugol
+algoritmo "Dados de Alunos - Primeira Versão"
+// Disciplina: Lógica de Programação 1
+// Descrição: Desenvolver um algoritmo (diagrama de blocos e portugol) – usando a estrutura ESCOLHA/CASO,  leia o número do registro de um aluno e escreva o respectivo nome do aluno e sua idade em dias.
+// Autor: Kauan Andrade
+// Data: 23/08/2026
+
+var
+ reg: inteiro
+
+inicio
+  Escreval("|--------------------------------|")
+  Escreval("|       ALUNOS REGISTRADOS       |")
+  Escreval("|--------------------------------|")
+  Escreval("|  1 - Luiz S.  |  2 - Carlos S. |")
+  Escreval("|--------------------------------|")
+  Escreval("|  3 - Ana O.   |  4 - Thiago F. |")
+  Escreval("|--------------------------------|")
+  Escreval()
+  Escreval("Digite o registro do aluno para mais dados:")
+    Leia(reg)
+  limpatela
+  escolha (reg)
+    caso 1 
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("|                         DADOS DO ALUNO                           |")
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("| Nº Registro |   Nome e Sobrenome   | Idade (dias) | Idade (anos) |")
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("|      ", reg, "      |      Luiz Silva      |     ", (15 * 365) + (15 div 4)"     |      15      |")
+      Escreval("|------------------------------------------------------------------|")
+    caso 2
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("|                         DADOS DO ALUNO                           |")
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("| Nº Registro |   Nome e Sobrenome   | Idade (dias) | Idade (anos) |")
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("|      ", reg, "      |     Carlos Santos    |     ", (19 * 365) + (19 div 4)"     |      19      |")
+      Escreval("|------------------------------------------------------------------|")
+    caso 3
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("|                         DADOS DO ALUNO                           |")
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("| Nº Registro |   Nome e Sobrenome   | Idade (dias) | Idade (anos) |")
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("|      ", reg, "      |     Ana Oliveira     |     ", (25 * 365) + (25 div 4)"     |      25      |")
+      Escreval("|------------------------------------------------------------------|")
+    caso 4
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("|                         DADOS DO ALUNO                           |")
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("| Nº Registro |   Nome e Sobrenome   | Idade (dias) | Idade (anos) |")
+      Escreval("|------------------------------------------------------------------|")
+      Escreval("|      ", reg, "      |   Thiago Ferreira    |     ", (28 * 365) + (28 div 4)"    |      28      |")
+      Escreval("|------------------------------------------------------------------|")
+      
+    outrocaso
+      Escreval ("O número informado não corresponde a nenhum registro!")
+  fimescolha
 fimalgoritmo
 ```
 
