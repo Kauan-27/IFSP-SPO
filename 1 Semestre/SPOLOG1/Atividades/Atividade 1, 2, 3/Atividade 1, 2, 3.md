@@ -92,7 +92,7 @@ fimalgoritmo
 
 ---
 
-## 3. Cálculo e Análise de Votos]
+## 3. Cálculo e Análise de Votos
 ```portugol
 algoritmo "Cálculo e Análise de Votos"
 // Disciplina: Lógica de Programação 1
