@@ -10,10 +10,12 @@ algoritmo "Cálculo compra à prazo e à vista"
 //Aluno: Kauan Andrade
 //Objetivo: Uma loja de departamentos utiliza o código V para transação à vista e P para transação a prazo. Faça um programa que receba código e valor de 15 transações usando laços de repetição Enquanto/faça. Calcule e mostre: O valor total das compras à vista; O valor total das compras a prazo; O valor total das compras efetuadas.
 //Professor: Francisco Luciano
+
 var
 cont: inteiro
 pag: caractere
 valor, totV, totP, totG, primPres:real
+
 inicio
 cont <- 1
 totV <- 0

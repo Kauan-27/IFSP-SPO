@@ -16,7 +16,8 @@ algoritmo "Calculadora - Salário Liquido"
 // Autor: Kauan Andrade
 // Data: 06/08/2026
 
-var HT, VH, PD, TD, SB: real
+var
+HT, VH, PD, TD, SB: real
 
 inicio
   escreva("Valor da hora-aula: ")
@@ -45,7 +46,8 @@ algoritmo "Calculadora - Salário Liquido"
 // Autor: Kauan Andrade
 // Data: 06/08/2026
 
-var HT, VH, PD: real
+var
+HT, VH, PD: real
 
 inicio
   escreva("Valor da hora-aula: ")
@@ -73,7 +75,8 @@ algoritmo "Calculadora - Conversão de Moedas"
 // Autor: Kauan Andrade
 // Data: 06/08/2026
 
-var vr, cd, cl, ce: real
+var
+vr, cd, cl, ce: real
 
 inicio
   escreva("Valor em R$: ")
