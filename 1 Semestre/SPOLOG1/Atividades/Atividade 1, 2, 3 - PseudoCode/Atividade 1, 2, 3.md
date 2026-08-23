@@ -8,6 +8,7 @@
 ## 1. Cálculo do Salário Líquido
 
 ### Calculadora - Salário Líquido – Opção com 5 variáveis
+
 ```portugol
 algoritmo "Calculadora - Salário Liquido"
 // Disciplina: Lógica de Programação 1
@@ -36,6 +37,7 @@ fimalgoritmo
 ```
 
 ### Calculadora - Salário Líquido – Opção com 3 variáveis
+
 ```portugol
 algoritmo "Calculadora - Salário Liquido"
 // Disciplina: Lógica de Programação 1
@@ -63,6 +65,7 @@ fimalgoritmo
 ---
 
 ## 2. Conversão de moedas
+
 ```portugol
 algoritmo "Calculadora - Conversão de Moedas"
 // Disciplina: Lógica de Programação 1
@@ -83,16 +86,17 @@ inicio
   leia(ce)
 
   limpatela
-  escreval("Valor em Reais = R$ ", vr:10:2)
-  escreval("Conversão - Dólares = $ ", vr / cd:10:2)
-  escreval("Conversão - Libras = £ ", vr / cl:10:2)
-  escreval("Conversão - Euros = € ", vr / ce:10:2)
+  escreval("Valor em Reais = R$ ", vr)
+  escreval("Conversão - Dólares = $ ", vr / cd)
+  escreval("Conversão - Libras = £ ", vr / cl)
+  escreval("Conversão - Euros = € ", vr / ce)
 fimalgoritmo
 ```
 
 ---
 
 ## 3. Cálculo e Análise de Votos
+
 ```portugol
 algoritmo "Cálculo e Análise de Votos"
 // Disciplina: Lógica de Programação 1
@@ -127,16 +131,16 @@ inicio
 
         se cod = 1 entao
           escreval("Total de votos em branco: ", vbr)
-          escreval("Percentual: ", vbr * 100 / vto:4:2, "%")
+          escreval("Percentual: ", vbr * 100 / vto, "%")
         senao se cod = 2 entao
           escreval("Total de votos nulos: ", vnu)
-          escreval("Percentual: ", vnu * 100 / vto:4:2, "%")
+          escreval("Percentual: ", vnu * 100 / vto, "%")
         senao se cod = 3 entao
           escreval("Total de indecisos: ", vin)
-          escreval("Percentual: ", vin * 100 / vto:4:2, "%")
+          escreval("Percentual: ", vin * 100 / vto, "%")
         senao se cod = 4 entao
           escreval("Total de votos válidos: ", vva)
-          escreval("Percentual: ", vva * 100 / vto:4:2, "%")
+          escreval("Percentual: ", vva * 100 / vto, "%")
         senao
           escreval("Opção inválida! Tente novamente.")
         fimse
