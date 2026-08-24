@@ -181,7 +181,7 @@ fimalgoritmo
 
 </div>
 <div align="center">
-<div style="display: flex; flex-direction: column; gap: 30px; align-items: center;">
+<div style="display: flex; flex-direction: column; gap: 30px;">
   <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado6.1.png" alt="Resultado 6.1">
     <img src="./Imagens/Resultado6.2.png" alt="Resultado 6.2">
