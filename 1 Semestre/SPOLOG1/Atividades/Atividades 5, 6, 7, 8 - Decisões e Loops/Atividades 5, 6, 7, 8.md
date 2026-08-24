@@ -91,11 +91,11 @@ fimalgoritmo
     <img src="./Imagens/Resultado5.1.png" alt="Resultado 5.1">
     <img src="./Imagens/Resultado5.2.png" alt="Resultado 5.2">
   </div>
-  <div style="display: flex; gap: 20px;">
+  <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado5.3.png" alt="Resultado 5.3">
     <img src="./Imagens/Resultado5.4.png" alt="Resultado 5.4">
   </div>
-  <div style="display: flex; gap: 20px;">
+  <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado5.5.png" alt="Resultado 5.5">
     <img src="./Imagens/Resultado5.6.png" alt="Resultado 5.6">
   </div>
@@ -153,7 +153,7 @@ inicio
       posi <- posi + 1
     fimse
     soma <- soma + num
-      Escreval(num, " foi computado com sucesso!")
+      Escreval("Valor ", num, " foi computado com sucesso!")
   fimpara
   limpatela
   Escreval("A média aritmética é: ", soma / n:10:2)
@@ -181,12 +181,12 @@ fimalgoritmo
 
 </div>
 
-<div style="display: flex; flex-direction: column; gap: 35px; align-items: center;">
+<div style="display: flex; flex-direction: column; gap: 30px; align-items: center;">
   <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado6.1.png" alt="Resultado 6.1">
     <img src="./Imagens/Resultado6.2.png" alt="Resultado 6.2">
   </div>
-  <div style="display: flex; gap: 20px;">
+  <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado6.3.png" alt="Resultado 6.3">
     <img src="./Imagens/Resultado6.4.png" alt="Resultado 6.4">
   </div>
@@ -253,12 +253,12 @@ fimalgoritmo
 
 </div>
 
-<div style="display: flex; flex-direction: column; gap: 5px; align-items: center;">
-  <div style="display: flex; gap: 35px;">
+<div style="display: flex; flex-direction: column; gap: 35px; align-items: center;">
+  <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado7.1.png" alt="Resultado 7.1">
     <img src="./Imagens/Resultado7.2.png" alt="Resultado 7.2">
   </div>
-  <div style="display: flex; gap: 20px;">
+  <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado7.3.png" alt="Resultado 7.3">
     <img src="./Imagens/Resultado7.4.png" alt="Resultado 7.4">
 </div>
