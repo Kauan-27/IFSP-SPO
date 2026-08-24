@@ -86,7 +86,7 @@ fimalgoritmo
 
 </div>
 
-<div style="display: flex; flex-direction: column; gap: 35px; align-items: center;">
+<div align="center"; style="display: flex; flex-direction: column; gap: 30px;">
   <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado5.1.png" alt="Resultado 5.1">
     <img src="./Imagens/Resultado5.2.png" alt="Resultado 5.2">
@@ -252,7 +252,7 @@ fimalgoritmo
 
 </div>
 
-<div style="display: flex; flex-direction: column; gap: 35px; align-items: center;">
+<div align="center"; style="display: flex; flex-direction: column; gap: 30px;">
   <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado7.1.png" alt="Resultado 7.1">
     <img src="./Imagens/Resultado7.2.png" alt="Resultado 7.2">
