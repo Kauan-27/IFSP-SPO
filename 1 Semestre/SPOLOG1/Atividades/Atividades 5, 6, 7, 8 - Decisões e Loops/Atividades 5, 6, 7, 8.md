@@ -117,8 +117,8 @@ fimalgoritmo
 <div align="center">
   <img src="./Imagens/Fluxo5.png" alt="Fluxo 5" width="500">
 </div>
-</div>
 
+</div>
 <div style="page-break-inside: avoid;">
 
 ---
@@ -288,11 +288,95 @@ algoritmo "Análise de Números Inteiros"
 // Data: 23/08/2026
 
 var
-
+menorNum, MaiorNum, primNum, num, vezesPrim: inteiro
 
 inicio
+  enquanto num <= 0 faca
+    Escreva("Digite um número inteiro positivo: ")
+      Leia(num)
+    limpatela
+    se num <= 0 entao
+      Escreval("O valor ", num, " não é permitido pois não é positivo!")
+      Escreval()
+    senao
+      Escreval("O número ", num," foi registrado com sucesso!")
+    fimse
+  fimenquanto
+  
+  vezesPrim <- 1
+  primNum <- num
+  menorNum <- num
+  maiorNum <- num
 
+  enquanto num <> -1 faca
+    Escreval()
+    Escreva("Digite o próximo número ou digite -1 para finalizar: ")
+      Leia(num)
+    limpatela
+    se num = 0 ou num <= -2 entao
+      Escreval("Números iguais ou menores a zero não são permitidos! Tente novamente.")
+    fimse
+    se num > 0 entao
+      Escreval("O número ", num," foi registrado com sucesso!")
+      se num > maiorNum entao
+        maiorNum <- num
+      fimse
+      se num < menorNum entao
+        menorNum <- num
+      fimse
+      se num = primNum entao
+        vezesPrim <- vezesPrim + 1
+      fimse
+    fimse
+  fimenquanto
+  Escreval("O MAIOR número digitado na sequência foi ", maiorNum, ".")
+  Escreval("O MENOR número digitado na sequência foi ", menorNum, ".")
+  Escreval()
+  Escreval("O primeiro número digitado foi ", primNum, ".")
+  Escreva("Esse número apareceu um total de ", vezesPrim, " vezes na sequência!")
 fimalgoritmo
 ```
+
+</div>
+<div style="page-break-inside: avoid;">
+
+---
+
+<div align="center">
+
+## **RESULTADO 8**
+
+</div>
+
+<div align="center">
+<div style="display: flex; flex-direction: column; gap: 25px; align-items: center">
+  <div style="display: flex; gap: 10px;">
+    <img src="./Imagens/Resultado8.1.png" alt="Resultado 8.1">
+    <img src="./Imagens/Resultado8.2.png" alt="Resultado 8.2">
+  </div>
+  <div style="display: flex; gap: 10px;">
+    <img src="./Imagens/Resultado8.3.png" alt="Resultado 8.3">
+    <img src="./Imagens/Resultado8.4.png" alt="Resultado 8.4">
+  </div>
+    <div style="display: flex; gap: 10px;">
+    <img src="./Imagens/Resultado8.5.png" alt="Resultado 8.5">
+    <img src="./Imagens/Resultado8.6.png" alt="Resultado 8.6">
+  </div>
+  <div style="display: flex; gap: 10px;">
+    <img src="./Imagens/Resultado8.7.png" alt="Resultado 8.7">
+    <img src="./Imagens/Resultado8.8.png" alt="Resultado 8.8">
+  </div>
+</div>
+
+</div>
+<div style="page-break-inside: avoid;">
+
+---
+
+### **Fluxograma**
+
+<div align="center">
+  <img src="./Imagens/Fluxo8.png" alt="Fluxo 8" width="500">
+</div>
 
 </div>
