@@ -313,13 +313,12 @@ inicio
     limpatela
     se num = 0 ou num <= -2 entao
       Escreval("Números iguais ou menores a zero não são permitidos! Tente novamente.")
-    fimse
-    se num > 0 entao
+    senao
       Escreval("O número ", num," foi registrado com sucesso!")
       se num > maiorNum entao
         maiorNum <- num
       fimse
-      se num < menorNum entao
+      se num < menorNum e num > 0 entao
         menorNum <- num
       fimse
       se num = primNum entao
@@ -327,6 +326,7 @@ inicio
       fimse
     fimse
   fimenquanto
+  limpatela
   Escreval("O MAIOR número digitado na sequência foi ", maiorNum, ".")
   Escreval("O MENOR número digitado na sequência foi ", menorNum, ".")
   Escreval()
