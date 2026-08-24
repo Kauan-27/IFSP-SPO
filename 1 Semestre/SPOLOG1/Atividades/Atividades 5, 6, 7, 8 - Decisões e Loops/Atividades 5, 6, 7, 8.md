@@ -86,7 +86,8 @@ fimalgoritmo
 
 </div>
 
-<div align="center"; style="display: flex; flex-direction: column; gap: 30px;">
+<div align="center">
+<div style="display: flex; flex-direction: column; gap: 35px;">
   <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado5.1.png" alt="Resultado 5.1">
     <img src="./Imagens/Resultado5.2.png" alt="Resultado 5.2">
@@ -102,6 +103,7 @@ fimalgoritmo
 <div style="display: flex; gap: 10px;">
   <img src="./Imagens/Resultado5.7.png" alt="Resultado 5.7">
   <img src="./Imagens/Resultado5.8.png" alt="Resultado 5.8">
+</div>
 </div>
 
 </div>
@@ -180,7 +182,9 @@ fimalgoritmo
 ## **RESULTADO 6**
 
 </div>
-<div align="center"; style="display: flex; flex-direction: column; gap: 30px;">
+
+<div align="center">
+<div style="display: flex; flex-direction: column; gap: 35px;">
   <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado6.1.png" alt="Resultado 6.1">
     <img src="./Imagens/Resultado6.2.png" alt="Resultado 6.2">
@@ -192,6 +196,7 @@ fimalgoritmo
   <div style="display: flex; justify-content: center;">
     <img src="./Imagens/Resultado6.5.png" alt="Resultado 6.5">
   </div>
+</div>
 </div>
 
 </div>
@@ -252,6 +257,7 @@ fimalgoritmo
 
 </div>
 
+<div align="center">
 <div style="display: flex; flex-direction: column; gap: 35px;">
   <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado7.1.png" alt="Resultado 7.1">
@@ -260,6 +266,7 @@ fimalgoritmo
   <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado7.3.png" alt="Resultado 7.3">
     <img src="./Imagens/Resultado7.4.png" alt="Resultado 7.4">
+</div>
 </div>
 
 </div>
