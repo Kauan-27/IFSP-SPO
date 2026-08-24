@@ -1,8 +1,7 @@
 
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD041 -->
-</style>
-
+<!-- markdownlint-disable MD024 -->
 <div style="page-break-inside: avoid;">
 
 # Atividades SPOLOG1 (18/08 - 24/08)
@@ -20,7 +19,7 @@
   <img src="./Imagens/Tabela5.png" alt="Tabela 5" width="500">
 </div>
 
-### **Versão em Portugol**
+### **Portugol**
 
 ```portugol
 algoritmo "Dados de Alunos - Simplificado"
@@ -87,30 +86,46 @@ fimalgoritmo
 
 </div>
 
+<div style="display: flex; flex-direction: column; gap: 35px; align-items: center;">
+  <div style="display: flex; gap: 10px;">
+    <img src="./Imagens/Resultado5.1.png" alt="Resultado 5.1">
+    <img src="./Imagens/Resultado5.2.png" alt="Resultado 5.2">
+  </div>
+  <div style="display: flex; gap: 20px;">
+    <img src="./Imagens/Resultado5.3.png" alt="Resultado 5.3">
+    <img src="./Imagens/Resultado5.4.png" alt="Resultado 5.4">
+  </div>
+  <div style="display: flex; gap: 20px;">
+    <img src="./Imagens/Resultado5.5.png" alt="Resultado 5.5">
+    <img src="./Imagens/Resultado5.6.png" alt="Resultado 5.6">
+  </div>
 <div style="display: flex; gap: 10px;">
-  <img src="./Imagens/Resultado5.1.png" alt="Resultado 5.1">
-  <img src="./Imagens/Resultado5.2.png" alt="Resultado 5.2">
+  <img src="./Imagens/Resultado5.7.png" alt="Resultado 5.7">
+  <img src="./Imagens/Resultado5.8.png" alt="Resultado 5.8">
 </div>
 
----
+</div>
 
 <div style="page-break-inside: avoid;">
 
-### **Versão em Fluxograma**
+---
+
+### **Fluxograma**
 
 <div align="center">
   <img src="./Imagens/Fluxo5.png" alt="Fluxo 5" width="500">
 </div>
-
----
-
 </div>
 
 <div style="page-break-inside: avoid;">
 
+---
+
 ## 6. Calculadora de Média Aritmética e Contagem de Números
 
 * **Enunciado:** Desenvolver um algoritmo (PORTUGOL) – usando o laço PARA,  que leia a quantidade de N valores,  calcule e escreva: A. Média aritmética dos valores lidos; B. Quantidade e o percentual de valores positivos; C. Quantidade e o percentual de valores negativos.
+
+### **Portugol**
 
 ```portugol
 algoritmo "Calculadora de Média Aritmética e Contagem de Números"
@@ -155,10 +170,10 @@ inicio
 fimalgoritmo
 ```
 
----
-
 </div>
 <div style="page-break-inside: avoid;">
+
+---
 
 <div align="center">
 
@@ -175,15 +190,15 @@ fimalgoritmo
     <img src="./Imagens/Resultado6.3.png" alt="Resultado 6.3">
     <img src="./Imagens/Resultado6.4.png" alt="Resultado 6.4">
   </div>
-    <div style="display: flex; justify-content: center;">
+  <div style="display: flex; justify-content: center;">
     <img src="./Imagens/Resultado6.5.png" alt="Resultado 6.5">
   </div>
 </div>
 
----
-
 </div>
 <div style="page-break-inside: avoid;">
+
+---
 
 ## 7. Soma a Partir de N
 
@@ -193,6 +208,8 @@ fimalgoritmo
   <img src="./Imagens/Tabela7.png" alt="Tabela 7" width="500">
 </div>
 
+### **Portugol**
+
 ```portugol
 algoritmo "Soma a Partir de N"
 // Disciplina: Lógica de Programação 1
@@ -201,22 +218,61 @@ algoritmo "Soma a Partir de N"
 // Data: 23/08/2026
 
 var
-
+a, n, soma, contador: inteiro
 
 inicio
-
+  contador <- 0
+  soma <- 0
+  Escreva("Digite o valor A: ")
+    Leia (a)
+  limpatela
+  enquanto n <= 0 faca
+  Escreva("Digite o valor N: ")
+    Leia (n)
+  limpatela
+    se n <= 0 entao
+      Escreval("Valor igual ou menor à zero! Tente novamente.")
+    fimse
+  fimenquanto
+  enquanto contador < n faca
+    soma <- soma + a + contador
+    contador <- contador + 1
+  fimenquanto
+    Escreva ("A soma de ", a, " com seus ", n-1, " sucessores é igual a ", soma)
 fimalgoritmo
 ```
 
 </div>
+<div style="page-break-inside: avoid;">
 
 ---
 
+<div align="center">
+
+## **RESULTADO 7**
+
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 5px; align-items: center;">
+  <div style="display: flex; gap: 35px;">
+    <img src="./Imagens/Resultado7.1.png" alt="Resultado 7.1">
+    <img src="./Imagens/Resultado7.2.png" alt="Resultado 7.2">
+  </div>
+  <div style="display: flex; gap: 20px;">
+    <img src="./Imagens/Resultado7.3.png" alt="Resultado 7.3">
+    <img src="./Imagens/Resultado7.4.png" alt="Resultado 7.4">
+</div>
+
+</div>
 <div style="page-break-inside: avoid;">
+
+---
 
 ## 8.  Análise de Números Inteiros
 
 * **Enunciado:** Construa um algoritmo (diagrama de blocos), usando FAÇA/ENQUANTO,  que leia uma quantidade indeterminada de números inteiros positivos e no final mostre: A. O maior número digitado; B. O menor número digitado; C. A quantidade de vezes que o primeiro número é digitado. O final da série de números digitada deve ser indicado pela entrada de -1.
+
+### **Portugol**
 
 ```portugol
 algoritmo "Análise de Números Inteiros"
