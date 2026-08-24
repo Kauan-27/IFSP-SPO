@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Atividades 5, 6, 7, 8.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable MD024 -->
+<div style="page-break-inside: avoid;">
+<h1 id="atividades-spolog1-1808---2408">Atividades SPOLOG1 (18/08 - 24/08)</h1>
+<p><strong>Aluno:</strong> Kauan Andrade Silva<br>
+<strong>Professor:</strong> Francisco Luciano</p>
+<hr>
+<h2 id="5-dados-de-alunos">5. Dados de Alunos</h2>
+<ul>
+<li><strong>Enunciado:</strong> Desenvolver um algoritmo (diagrama de blocos e portugol) – usando a estrutura ESCOLHA/CASO,  leia o número do registro de um aluno e escreva o respectivo nome do aluno e sua idade em dias, a partir do quadro abaixo:</li>
+</ul>
+<div align="center">
+  <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Tabela5.png" alt="Tabela 5" width="500">
+</div>
+<h3 id="portugol"><strong>Portugol</strong></h3>
+<pre class="hljs"><code><div>algoritmo &quot;Dados de Alunos - Simplificado&quot;
+// Disciplina: Lógica de Programação 1
+// Descrição: Desenvolver um algoritmo (diagrama de blocos e portugol) – usando a
+// estrutura ESCOLHA/CASO,  leia o número do registro de um aluno e escreva o
+// respectivo nome do aluno e sua idade em dias.
+// Autor: Kauan Andrade
+// Data: 23/08/2026
+var
+   reg, iAnos, iDias: inteiro
+   nome: caractere
+   valido: logico
+inicio
+  Escreval(&quot;|--------------------------------|&quot;)
+  Escreval(&quot;|        ALUNOS REGISTRADOS      |&quot;)
+  Escreval(&quot;|--------------------------------|&quot;)
+  Escreval(&quot;|  1 - Luiz S.  |  2 - Carlos S. |&quot;)
+  Escreval(&quot;|--------------------------------|&quot;)
+  Escreval(&quot;|  3 - Ana O.   |  4 - Thiago F. |&quot;)
+  Escreval(&quot;|--------------------------------|&quot;)
+  Escreval()
+  Escreval(&quot;Digite o registro do aluno para mais dados:&quot;)
+    Leia(reg)
+    limpatela
+    valido &lt;- verdadeiro
+    escolha (reg)
+      caso 1
+         nome &lt;- &quot;   Luiz Silva   &quot;
+         iAnos &lt;- 15
+      caso 2
+         nome &lt;- &quot;  Carlos Santos &quot;
+         iAnos &lt;- 19
+      caso 3
+         nome &lt;- &quot;  Ana Oliveira  &quot;
+         iAnos &lt;- 25
+      caso 4
+         nome &lt;- &quot;Thiago Ferreira &quot;
+         iAnos &lt;- 28
+      outrocaso
+         valido &lt;- falso
+         Escreval(&quot;O número informado não corresponde a nenhum registro!&quot;)
+    fimescolha
+      se (valido) entao
+        iDias &lt;- (iAnos * 365) + (iAnos div 4)
+          Escreval(&quot;|---------------------------------------------|&quot;)
+          Escreval(&quot;|               DADOS DO ALUNO                |&quot;)
+          Escreval(&quot;|---------------------------------------------|&quot;)
+          Escreval(&quot;| Nº Reg. |  Nome e Sobrenome  | Idade (dias) |&quot;)
+          Escreval(&quot;|---------------------------------------------|&quot;)
+          Escreval(&quot;|    &quot;, reg, &quot;    |  &quot;, nome, &quot;  |     &quot;, iDias:5:0, &quot;    |&quot;)
+          Escreval(&quot;|---------------------------------------------|&quot;)
+      fimse
+fimalgoritmo
+</div></code></pre>
+</div>
+<hr>
+<div align="center">
+<h2 id="resultado-5"><strong>RESULTADO 5</strong></h2>
+</div>
+<div align="center"">
+<div style="display: flex; flex-direction: column; gap: 25px; align-items: center">
+  <div style="display: flex; gap: 10px;">
+    <img src="./Imagens/Resultado5.1.png" alt="Resultado 5.1">
+    <img src="./Imagens/Resultado5.2.png" alt="Resultado 5.2">
+  </div>
+  <div style="display: flex; gap: 10px;">
+    <img src="./Imagens/Resultado5.3.png" alt="Resultado 5.3">
+    <img src="./Imagens/Resultado5.4.png" alt="Resultado 5.4">
+  </div>
+  <div style="display: flex; gap: 10px;">
+    <img src="./Imagens/Resultado5.5.png" alt="Resultado 5.5">
+    <img src="./Imagens/Resultado5.6.png" alt="Resultado 5.6">
+  </div>
+<div style="display: flex; gap: 10px;">
+  <img src="./Imagens/Resultado5.7.png" alt="Resultado 5.7">
+  <img src="./Imagens/Resultado5.8.png" alt="Resultado 5.8">
+</div>
+</div>
+</div>
+<div style="page-break-inside: avoid;">
+<hr>
+<h3 id="fluxograma"><strong>Fluxograma</strong></h3>
+<div align="center">
+  <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Fluxo5.png" alt="Fluxo 5" width="500">
+</div>
+</div>
+<div style="page-break-inside: avoid;">
+<hr>
+<h2 id="6-calculadora-de-média-aritmética-e-contagem-de-números">6. Calculadora de Média Aritmética e Contagem de Números</h2>
+<ul>
+<li><strong>Enunciado:</strong> Desenvolver um algoritmo (PORTUGOL) – usando o laço PARA,  que leia a quantidade de N valores,  calcule e escreva: A. Média aritmética dos valores lidos; B. Quantidade e o percentual de valores positivos; C. Quantidade e o percentual de valores negativos.</li>
+</ul>
+<h3 id="portugol-1"><strong>Portugol</strong></h3>
+<pre class="hljs"><code><div>algoritmo &quot;Calculadora de Média Aritmética e Contagem de Números&quot;
+// Disciplina: Lógica de Programação 1
+// Descrição: Desenvolver um algoritmo (PORTUGOL) – usando o laço PARA,  que leia a quantidade 1de N valores,  calcule e escreva: A. Média aritmética dos valores lidos; B. Quantidade e o percentual de valores positivos; C. Quantidade e o percentual de valores negativos.
+// Autor: Kauan Andrade
+// Data: 23/08/2026
+
+var
+n, posi, neg, contador:inteiro
+num, soma: real
+
+inicio
+  Escreva(&quot;Insira quantos números utilizará: &quot;)
+    Leia(n)
+  limpatela
+  para contador de 1 ate n passo 1 faca
+    Escreva(&quot;Digite o &quot;, contador,&quot;º valor&quot;)
+      Leia(num)
+    limpatela
+    se num &lt; 0 entao
+      neg &lt;- neg + 1
+    fimse
+    se num &gt; 0 entao
+      posi &lt;- posi + 1
+    fimse
+    soma &lt;- soma + num
+      Escreval(&quot;Valor &quot;, num, &quot; foi computado com sucesso!&quot;)
+  fimpara
+  limpatela
+  Escreval(&quot;A média aritmética é: &quot;, soma / n:10:2)
+  Escreval()
+  Escreval(&quot;Você utilizou: &quot;)
+  Escreval(posi,&quot; número(s) positivo(s)&quot;)
+  Escreval(neg,&quot; número(s) negativo(s)&quot;)
+  Escreval(n - posi - neg,&quot; número(s) zero&quot;)
+  Escreval()
+  Escreval(&quot;No total foram: &quot;)
+  Escreval(posi/n*100:2:2 ,&quot;% de valores positivos;&quot;)
+  Escreval( neg/n*100:2:2 ,&quot;% de valores negativos;&quot;)
+  Escreval(&quot;E &quot;, 100 - (posi/n*100) - (neg/n*100):2:2,&quot;% de zeros utilizados.&quot;)
+fimalgoritmo
+</div></code></pre>
+</div>
+<div style="page-break-inside: avoid;">
+<hr>
+<div align="center">
+<h2 id="resultado-6"><strong>RESULTADO 6</strong></h2>
+</div>
+<div align="center">
+<div style="display: flex; flex-direction: column; gap: 25px; align-items: center">
+  <div style="display: flex; gap: 10px;">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado6.1.png" alt="Resultado 6.1">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado6.2.png" alt="Resultado 6.2">
+  </div>
+  <div style="display: flex; gap: 10px;">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado6.3.png" alt="Resultado 6.3">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado6.4.png" alt="Resultado 6.4">
+  </div>
+  <div style="display: flex; justify-content: center;">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado6.5.png" alt="Resultado 6.5">
+  </div>
+</div>
+</div>
+</div>
+<div style="page-break-inside: avoid;">
+<hr>
+<h2 id="7-soma-a-partir-de-n">7. Soma a Partir de N</h2>
+<ul>
+<li><strong>Enunciado:</strong> Escreva um algoritmo (portugol) usando a estrutura enquanto/faça, para ler um valor A e um valor N. Imprimir a soma dos N números a partir de A (inclusive). Caso N seja negativo ou ZERO, deverá ser lido um novo N (apenas N). Veja na tabela a seguir algumas entradas para teste:</li>
+</ul>
+<div align="center">
+  <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Tabela7.png" alt="Tabela 7" width="500">
+</div>
+<h3 id="portugol-2"><strong>Portugol</strong></h3>
+<pre class="hljs"><code><div>algoritmo &quot;Soma a Partir de N&quot;
+// Disciplina: Lógica de Programação 1
+// Descrição: Escreva um algoritmo (portugol) usando a estrutura enquanto/faça, para ler um valor A e um valor N. Imprimir a soma dos N números a partir de A (inclusive). Caso N seja negativo ou ZERO, deverá ser lido um novo N (apenas N).
+// Autor: Kauan Andrade
+// Data: 23/08/2026
+
+var
+a, n, soma, contador: inteiro
+
+inicio
+  contador &lt;- 0
+  soma &lt;- 0
+  Escreva(&quot;Digite o valor A: &quot;)
+    Leia (a)
+  limpatela
+  enquanto n &lt;= 0 faca
+  Escreva(&quot;Digite o valor N: &quot;)
+    Leia (n)
+  limpatela
+    se n &lt;= 0 entao
+      Escreval(&quot;Valor igual ou menor à zero! Tente novamente.&quot;)
+    fimse
+  fimenquanto
+  enquanto contador &lt; n faca
+    soma &lt;- soma + a + contador
+    contador &lt;- contador + 1
+  fimenquanto
+    Escreva (&quot;A soma de &quot;, a, &quot; com seus &quot;, n-1, &quot; sucessores é igual a &quot;, soma)
+fimalgoritmo
+</div></code></pre>
+</div>
+<div style="page-break-inside: avoid;">
+<hr>
+<div align="center">
+<h2 id="resultado-7"><strong>RESULTADO 7</strong></h2>
+</div>
+<div align="center">
+<div style="display: flex; flex-direction: column; gap: 25px; align-items: center">
+  <div style="display: flex; gap: 10px;">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado7.1.png" alt="Resultado 7.1">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado7.2.png" alt="Resultado 7.2">
+  </div>
+  <div style="display: flex; gap: 10px;">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado7.3.png" alt="Resultado 7.3">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado7.4.png" alt="Resultado 7.4">
+</div>
+</div>
+</div>
+<div style="page-break-inside: avoid;">
+<hr>
+<h2 id="8--análise-de-números-inteiros">8.  Análise de Números Inteiros</h2>
+<ul>
+<li><strong>Enunciado:</strong> Construa um algoritmo (diagrama de blocos), usando FAÇA/ENQUANTO,  que leia uma quantidade indeterminada de números inteiros positivos e no final mostre: A. O maior número digitado; B. O menor número digitado; C. A quantidade de vezes que o primeiro número é digitado. O final da série de números digitada deve ser indicado pela entrada de -1.</li>
+</ul>
+<h3 id="portugol-3"><strong>Portugol</strong></h3>
+<pre class="hljs"><code><div>algoritmo &quot;Análise de Números Inteiros&quot;
+// Disciplina: Lógica de Programação 1
+// Descrição: Construa um algoritmo (diagrama de blocos), usando FAÇA/ENQUANTO,  que leia uma quantidade indeterminada de números inteiros positivos e no final mostre: A. O maior número digitado; B. O menor número digitado; C. A quantidade de vezes que o primeiro número é digitado. O final da série de números digitada deve ser indicado pela entrada de -1. 
+// Autor: Kauan Andrade
+// Data: 23/08/2026
+
+var
+menorNum, MaiorNum, primNum, num, vezesPrim: inteiro
+
+inicio
+  enquanto num &lt;= 0 faca
+    Escreva(&quot;Digite um número inteiro positivo: &quot;)
+      Leia(num)
+    limpatela
+    se num &lt;= 0 entao
+      Escreval(&quot;O valor &quot;, num, &quot; não é permitido pois não é positivo!&quot;)
+      Escreval()
+    senao
+      Escreval(&quot;O número &quot;, num,&quot; foi registrado com sucesso!&quot;)
+    fimse
+  fimenquanto
+  
+  vezesPrim &lt;- 1
+  primNum &lt;- num
+  menorNum &lt;- num
+  maiorNum &lt;- num
+
+  enquanto num &lt;&gt; -1 faca
+    Escreval()
+    Escreva(&quot;Digite o próximo número ou digite -1 para finalizar: &quot;)
+      Leia(num)
+    limpatela
+    se num = 0 ou num &lt;= -2 entao
+      Escreval(&quot;Números iguais ou menores a zero não são permitidos! Tente novamente.&quot;)
+    fimse
+    se num &gt; 0 entao
+      Escreval(&quot;O número &quot;, num,&quot; foi registrado com sucesso!&quot;)
+      se num &gt; maiorNum entao
+        maiorNum &lt;- num
+      fimse
+      se num &lt; menorNum entao
+        menorNum &lt;- num
+      fimse
+      se num = primNum entao
+        vezesPrim &lt;- vezesPrim + 1
+      fimse
+    fimse
+  fimenquanto
+  Escreval(&quot;O MAIOR número digitado na sequência foi &quot;, maiorNum, &quot;.&quot;)
+  Escreval(&quot;O MENOR número digitado na sequência foi &quot;, menorNum, &quot;.&quot;)
+  Escreval()
+  Escreval(&quot;O primeiro número digitado foi &quot;, primNum, &quot;.&quot;)
+  Escreva(&quot;Esse número apareceu um total de &quot;, vezesPrim, &quot; vezes na sequência!&quot;)
+fimalgoritmo
+</div></code></pre>
+</div>
+<div style="page-break-inside: avoid;">
+<hr>
+<div align="center">
+<h2 id="resultado-8"><strong>RESULTADO 8</strong></h2>
+</div>
+<div align="center">
+<div style="display: flex; flex-direction: column; gap: 25px; align-items: center">
+  <div style="display: flex; gap: 10px;">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado8.1.png" alt="Resultado 8.1">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado8.2.png" alt="Resultado 8.2">
+  </div>
+  <div style="display: flex; gap: 10px;">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado8.3.png" alt="Resultado 8.3">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado8.4.png" alt="Resultado 8.4">
+  </div>
+    <div style="display: flex; gap: 10px;">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado8.5.png" alt="Resultado 8.5">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado8.6.png" alt="Resultado 8.6">
+  </div>
+  <div style="display: flex; gap: 10px;">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado8.7.png" alt="Resultado 8.7">
+    <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Resultado8.8.png" alt="Resultado 8.8">
+  </div>
+</div>
+</div>
+<div style="page-break-inside: avoid;">
+<hr>
+<h3 id="fluxograma-1"><strong>Fluxograma</strong></h3>
+<div align="center">
+  <img src="file:///e:/Programação/Repositórios/IFSP-SPO/1 Semestre/SPOLOG1/Atividades/Atividades 5, 6, 7, 8 - Decisões e Loops/Imagens/Fluxo8.png" alt="Fluxo 8" width="500">
+</div>
+</div>
+
+</body>
+</html>
