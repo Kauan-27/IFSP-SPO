@@ -113,7 +113,7 @@ fimalgoritmo
 ### **Fluxograma**
 
 <div align="center">
-  <img src="./Imagens/Fluxo5.png" alt="Fluxo 5" width="500">
+  <img src="./Imagens/Fluxo5.png" alt="Fluxo 5" width="1200">
 </div>
 
 </div>
@@ -374,7 +374,7 @@ fimalgoritmo
 ### **Fluxograma**
 
 <div align="center">
-  <img src="./Imagens/Fluxo8.png" alt="Fluxo 8" width="500">
+  <img src="./Imagens/Fluxo8.png" alt="Fluxo 8" width="1200">
 </div>
 
 </div>
