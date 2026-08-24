@@ -24,9 +24,7 @@
 ```portugol
 algoritmo "Dados de Alunos - Simplificado"
 // Disciplina: Lógica de Programação 1
-// Descrição: Desenvolver um algoritmo (diagrama de blocos e portugol) – usando a
-// estrutura ESCOLHA/CASO,  leia o número do registro de um aluno e escreva o
-// respectivo nome do aluno e sua idade em dias.
+// Descrição: Desenvolver um algoritmo (diagrama de blocos e portugol) – usando a estrutura ESCOLHA/CASO,  leia o número do registro de um aluno e escreva o respectivo nome do aluno e sua idade em dias.
 // Autor: Kauan Andrade
 // Data: 23/08/2026
 var
