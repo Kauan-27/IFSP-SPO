@@ -180,7 +180,7 @@ fimalgoritmo
 ## **RESULTADO 6**
 
 </div>
-
+<div align="center">
 <div style="display: flex; flex-direction: column; gap: 30px; align-items: center;">
   <div style="display: flex; gap: 10px;">
     <img src="./Imagens/Resultado6.1.png" alt="Resultado 6.1">
@@ -193,6 +193,7 @@ fimalgoritmo
   <div style="display: flex; justify-content: center;">
     <img src="./Imagens/Resultado6.5.png" alt="Resultado 6.5">
   </div>
+</div>
 </div>
 
 </div>
