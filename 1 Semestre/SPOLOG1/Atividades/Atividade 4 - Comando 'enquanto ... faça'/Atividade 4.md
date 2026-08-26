@@ -1,4 +1,4 @@
-# Atividades SPOLOG1 em sala (11/08)
+# Atividade SPOLOG1 em sala (11/08)
 
 **Aluno:** Kauan Andrade Silva  
 **Professor:** Francisco Luciano  
