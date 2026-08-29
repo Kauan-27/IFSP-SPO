@@ -15,3 +15,8 @@ Acessar o vídeo abaixo, fazer os exercícios e os procedimentos propostos criar
 **Data:** 29 de Agosto de 2026  
 
 ### COMANDOS GIT
+
+abc
+
+teste
+tes
