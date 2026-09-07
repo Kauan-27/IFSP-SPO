@@ -4,23 +4,23 @@
 #include <stdlib.h>
 
 int main() {
-
-    float altura, maiorAltura = 0, menorAltura = 0, somaAlturaM = 0, somaAlturaT = 0;
-    int sexo, qtdM = 0, qtdH = 0, i, conf = 0;
-
+    int conf = 0;
 
 //o valor de "i" é 5 para fins de teste, para não precisar digitar 50 vezes os dados
 //o valor de "i" pode ser alterado para 50, no laço for(), para atender ao enunciado da questão
 //assim como, o valor de "5" no cálculo da média da população, pode ser alterado para 50, para atender ao enunciado da questão
 
 do{
+    float altura, maiorAltura = 0, menorAltura = 0, somaAlturaM = 0, somaAlturaT = 0;
+    int sexo, qtdM = 0, qtdH = 0, i;
+
     system("cls");
 
     printf("\nCONTAGEM DE ALTURA E SEXO\n");
-    printf("---------------------------------------------------\n");
     
     for (i = 1; i <= 5; i++) {
-        printf("\nDigite a altura da pessoa %d/5 em cm:             ", i);
+        printf("---------------------------------------------------\n");
+        printf("Digite a altura da pessoa %d/5 em cm:             ", i);
         scanf("%f", &altura);
         printf("Digite o sexo da pessoa %d/5 (0 - masc, 1 - fem): ", i);
         scanf("%i", &sexo);
