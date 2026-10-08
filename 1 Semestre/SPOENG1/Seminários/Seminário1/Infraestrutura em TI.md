@@ -6,8 +6,4 @@
 
 ## Integrantes
 
-Hélio Ryu
-Jonas Araujo
-Kauan Andrade
-Leonardo Montesanti
-Marco Alves
+Hélio Ryu | Jonas Araujo | Kauan Andrade | Leonardo Montesanti | Marco Alves
